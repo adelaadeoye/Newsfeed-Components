@@ -145,11 +145,13 @@ function createArticle(title, date, firstParagraph, secondParagraph, thirdParagr
     const p3 = document.createElement('p');
     const expand = document.createElement('span');
     const butt = document.createElement('button')
+    const closeButton = document.createElement('p');
 
     //Add classes
     article.classList.add('article');
     articleDate.classList.add('date');
     expand.classList.add('expandButton')
+    closeButton.classList.add('close')
 
     //Set content
     articleTitle.textContent = title;
@@ -158,9 +160,11 @@ function createArticle(title, date, firstParagraph, secondParagraph, thirdParagr
     p2.textContent = secondParagraph;
     p3.textContent = thirdParagraph;
     butt.textContent = "Expand Button"
+    closeButton.textContent = "X";
 
     //Structure ie appendind elements
     article.appendChild(articleTitle);
+    article.appendChild(closeButton)
     article.appendChild(articleDate);
     article.appendChild(p1);
     article.appendChild(p2);
@@ -172,6 +176,9 @@ function createArticle(title, date, firstParagraph, secondParagraph, thirdParagr
     expand.addEventListener('click', (e) => {
         article.classList.toggle('article-open');
     });
+    closeButton.addEventListener('click', (e) => {
+        article.style.display = "none";
+    })
 
     return article;
 }
