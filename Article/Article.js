@@ -177,6 +177,5 @@ function createArticle(title, date, firstParagraph, secondParagraph, thirdParagr
 }
 data.forEach(data => {
     articles.appendChild(createArticle(data.title, data.date, data.firstParagraph, data.secondParagraph, data.thirdParagraph))
-    console.log(createArticle(data.title, data.date, data.firstParagraph, data.secondParagraph, data.thirdParagraph))
 
 })
