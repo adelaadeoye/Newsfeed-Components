@@ -84,6 +84,26 @@ const data = [{
         thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+    },
+    //My own Article
+    {
+        title: 'BREAKING: Tribunal sacks House of Reps member Alex Egbona',
+        date: 'Sept 4th, 2019',
+        firstParagraph: `A member of the House of Representatives representing Abi/Yakurr Federal Constituency, Hon. Alex Egbona of the All Progressives Congress, was on Wednesday sacked by the Election Petition Tribunal sitting in Calabar.`,
+
+        secondParagraph: `ormer Speaker of the Cross River State House of Assembly, Hon. John Gaul-Lebo of the Peoples Democratic Party, had filed a suit challenging Egbona’s victory in the February 23, 2019 House of Representatives election and had asked the court to nullify it on the ground of “massive irregularities.”
+      he also contended that Egbona was not the lawful candidate of APC. `,
+
+        thirdParagraph: `He ruled that the votes scored in the election by Egbona were “defiant votes and therefore invalid and unlawful.”Justice Agbata also ruled that the candidate of the PDP, John Gaul-Lebo, “scored the highest number of valid votes in the election and so, the certificate of return erroneously issued to Egbona should be withdrawn forthwith and issued to John Gaul-Lebo.”`
+    },
+    {
+        title: 'Xenophobia: MTN shuts Lagos office as Police guard premises',
+        date: 'Sept 4th, 2019',
+        firstParagraph: `Following a series of attacks on its premises by angry mobs and protesters in some parts of the country, MTN Nigeria has shut its outlet on Ogunnusi Road, Ojodu, Lagos, while armed policemen have also been deployed to man the premises.`,
+
+        secondParagraph: `MTN, a South African telecoms company, is the biggest mobile telecommunication network provider in Nigeria, with 38 per cent share of the telecoms market and 65,379,196 subscribers as of July 2019, according to the data on the website of the Nigerian Communications Commission as of Wednesday morning. `,
+
+        thirdParagraph: `The closest to MTN in the telecoms market is Airtel, an Indian telecoms company, with 26.80 per cent share of the market and 46,836,395 million subscribers. While Globacom, a Nigerian telecoms company, is in the third place, with 26.70 per cent of the market and 46,713,068 subscribers. 9mobile is the fourth with nine per cent of the market and 15,739,967 subscribers.`
     }
 ];
 
